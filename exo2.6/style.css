@@ -1,0 +1,42 @@
+
+.blue {
+    background-color:  #2574a9;
+    border: solid grey;
+}
+.blue legend{
+    background-color:#2574a9 ;
+}
+
+.blue li{
+    padding-top: 5px;
+}
+.violet{
+    background-color:#9a12b3 ;
+    border: solid grey;
+    margin-top:4px ;
+}
+.violet legend{
+    background-color:#9a12b3 ;
+}
+.violet li {
+    padding-top: 5px;
+}
+.rose{
+    background-color: #db0a5b;
+    border: solid grey;
+    margin-top: 4px;
+}
+.rose legend{
+    background-color: #db0a5b;
+
+}
+.rose li{
+    padding-top: 5px;
+}
+.rose img{
+    position: absolute;
+    margin-bottom:3px;
+}
+.button{
+    padding-top: 2px;
+}

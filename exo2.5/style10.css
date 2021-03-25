@@ -1,0 +1,12 @@
+.formulaire{
+    background-color: grey;
+    padding:20px;
+    width:25%;
+    border-radius: 50px;
+    box-shadow:5px 5px 5px black;
+}
+
+.arrondie{
+    border-radius: 30px;
+    
+}

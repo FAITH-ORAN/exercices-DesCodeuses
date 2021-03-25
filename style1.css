@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Neuropol';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Neuropol'), url('fonts/NEUROPOL.woff') format('woff');
+    }
+    .logo{
+        font-family:Neuropol;
+    }
+    a:hover{ color: gray !important;
+        text-decoration: none;
+     }
+     .position{ 
+         margin-top: 20vh;
+     }
+    .github:hover{
+         color: black !important;
+     }
+     .behance:hover{
+        color: black !important;
+    }
+    .linkedin:hover{
+        color: rgb(62, 72, 212) !important;
+    }
+    .mail:hover{
+        color:rgb(201, 42, 42) !important;
+    }

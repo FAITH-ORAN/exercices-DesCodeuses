@@ -1,0 +1,56 @@
+div{
+    float: left;
+}
+.vert{
+    background-color: green;
+    width: 80%;
+    height: 50px;
+}
+
+.bleu{
+    background-color: blue;
+    width: 20%;
+    height: 50px;
+}
+
+.rouge{
+    background-color: red;
+    width: 40%;
+    height:80px;
+}
+
+.orangerouge{
+    background-color: rgb(231, 97, 19);
+    width:30%;
+    height:40px;
+}
+
+.gris{
+    background-color: rgb(85, 87, 85);
+    width:30%;
+    height:40px;
+}
+
+.orange{
+    background-color: rgb(245, 124, 10);
+    width:20%;
+    height:40px;
+}
+
+.vertbleu{
+    background-color: rgb(0, 109, 128);
+    width:20%;
+    height:40px;
+}
+
+.brique{
+    background-color: rgb(224, 52, 9);
+    width:20%;
+    height:40px;
+}
+
+.marine{
+    background-color: rgb(18, 5, 54);
+    width:100%;
+    height:100px;
+}

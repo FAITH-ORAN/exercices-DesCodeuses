@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <title>exercice decodeuses formulaire</title>
+         <meta charset="utf-8">
+         <link rel="stylesheet" href="style.css">
+     </head>
+
+     <body>
+        <form  action="url" method="post">
+            <fieldset class="blue">
+             <legend>Votre identité</legend>
+              <ol>
+                <li>
+                  <label for="name">Nom:</label>
+                  <input   type="text" id="name" name="name" value="Nom">
+                </li>
+                <li >
+                  <label for="prénom">Prénom:</label>
+                  <input type="text" id="prénom" name="prénom" value="Prénom">
+                </li>
+                <li >
+                  <label for="email">Adresse mail:</label>
+                  <input type="email" id="email" name="email" value="Adresse mail">
+                </li>
+              </ol> 
+            </fieldset>
+            <fieldset class="violet">
+                <legend>Adresse de livraison</legend> 
+               <ol>
+                <li  >
+                  <label for="adress">Adresse:</label>
+                    <textarea id="adress" name="Adresse"></textarea>
+                </li>
+                <li>
+                  <label for="code-postal">Code postal:</label>
+                  <input type="text" id="code-postal" name="code-postal" value="Code postal">
+                </li>
+                <li gi>
+                  <label for="city">Ville:</label>
+                  <input type="text" id="city" name="city" value="Ville">
+                </li>
+               </ol> 
+            </fieldset>
+            <fieldset class="rose">
+                <legend>Information de réglement</legend>
+                <ol>
+                 <li>
+                    <label for="name">Type de carte:</label>
+                 </li>
+                 <li>
+                    <label>
+                    <input type="radio" name="radio1" value="visa">
+                        visa
+                    </label>
+                    <img src="visa.svg" width="25px" />
+                </li>
+                <li>
+                    <label>
+                    <input type="radio" name="radio1" value="mastercard">
+                        mastercard
+                    </label>
+                    <img src="mastercard.svg" width="25px" />
+                </li>
+                <li>
+                    <label for="card-number">Numéro de carte:</label>
+                    <input type="text" id="card-number" name="card-number" value="Numéro de carte" >
+                </li>
+                <li>
+                    <label for="password">Code de sécurité:</label>
+                    <input type="password" id="password" name="password" value="Code de sécurité" >
+                </li>
+                <li>
+                    <label for="name-in-card">Nom du titulaire:</label>
+                    <input type="text" id="name-in-card" name="name-in-card" value="Nom du titulaire" >
+                </li>
+             </ol> 
+            </fieldset>
+            <div class="button">
+             <button type="submit">j'achète!</button>
+           </div>
+        </form>
+
+     </body>
+ </html>

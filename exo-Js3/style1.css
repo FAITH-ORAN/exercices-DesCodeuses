@@ -1,0 +1,15 @@
+button {
+    background-color: blue;
+    height:3rem;
+    color: white;
+    border-radius: 5px;
+}
+.flex{
+    display:flex;
+    justify-content:space-around;  
+}
+.para{
+    background-color: black;
+    width: 40%;
+    color: white;
+}

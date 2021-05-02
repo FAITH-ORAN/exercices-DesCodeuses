@@ -1,0 +1,7 @@
+.parent{
+    display:flex;  
+}
+.parent div{
+    flex-grow: 2;
+    height: 3rem;
+}
